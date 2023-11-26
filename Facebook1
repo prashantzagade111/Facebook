@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+</head>
+<body>
+<fieldset>
+	<legend>Login Form</legend>
+	<form>
+		<label>Enter Valid UserName</label>
+		<input type="text" name="" maxlength="15" pattern="[A-Z,a-z,0-9]+">
+        <br><br>
+		<label>Enter Valid EmailId</label>
+		<input type="mail" name="" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+        <br><br>
+		<label>Enter Valid phonenumber</label>
+		<input type="text" name="" maxlength="10" pattern="[6-9]{1}[0-9]{9}">
+        <br><br>
+		<input type="submit" name="">
+		
+	</form>
+</fieldset>
+</body>
